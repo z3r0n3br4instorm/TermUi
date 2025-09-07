@@ -21,10 +21,10 @@ Initially the tmux session is devided to 3 panes
 ```ctrl+b %```
 
 > Launch apps <br>
-Use the `launch` command to list the apps in your device and launch them.<br>
-Some system apps are not still visible I will look into it and fix it.
+- Use the `launch` command to list the apps in your device and launch them.<br>
+  Some system apps are not still visible I will look into it and fix it.
 
 > How to set as default launcher <br>
-Go to `Settings > Apps > Default Apps > Home App` and select `AnyHome`. Then press home and choose termux.
+- Go to `Settings > Apps > Default Apps > Home App` and select `AnyHome`. Then press home and choose termux.
 
 Leave a star if you liked this ;D
