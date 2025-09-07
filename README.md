@@ -1,5 +1,7 @@
 # TermUI
 
+![Screenshot](SS.jpeg)
+
 ## How to set termux as the home screen?
 1. Run installer script and follow the instructions
 ```
