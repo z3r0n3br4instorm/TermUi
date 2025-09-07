@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Retrive package list
+packages=$(sudo pm list packages -3 | cut -d ':' -f 2 | sort)
+
+
+
+while true; do
+	# List packages
+	selected_app=$(echo "$packages" | fzf)
+	if [[ -n "$selected_app" ]]; then
+    		# Execute
+		su -c "monkey -p $selected_app -c android.intent.category.LAUNCHER 1" > /dev/null 2>&1
+	fi
+done
