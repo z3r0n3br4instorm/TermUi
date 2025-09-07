@@ -17,9 +17,7 @@ tmux split-window -h -t $SESSION:0.0
 # Send tty-clock command to left-top pane
 tmux send-keys -t $SESSION:0.0 'peaclock' C-m
 
-tmux send-keys -t $SESSION:0.2 'cmatrix' C-m
-
-tmux send-keys -t $SESSION:0.2 'nano test' C-m
+tmux send-keys -t $SESSION:0.2 'launch' C-m
 
 # Send htop to right-top pane
 tmux send-keys -t $SESSION:0.1 'sudo gotop' C-m
