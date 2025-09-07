@@ -10,3 +10,21 @@ bash install.sh
 ```
 https://github.com/tytydraco/AnyHome
 ```
+
+## Handling stuff
+
+> tmux
+Initially the tmux session is devided to 3 panes
+- To split the current pane horizontally, do
+```ctrl+b "```
+- To split the current pane vertically, do
+```ctrl+b %```
+
+> Launch apps 
+Use the `launch` command to list the apps in your device and launch them.<br>
+Some system apps are not still visible I will look into it and fix it.
+
+> How to set as default launcher
+Go to `Settings > Apps > Default Apps > Home App` and select `AnyHome`. Then press home and choose termux.
+
+Leave a star if you liked this ;D
