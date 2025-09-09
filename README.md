@@ -1,5 +1,7 @@
 # TermUI
 
+![Screenshot](SS.jpeg)
+
 ## How to set termux as the home screen?
 1. Run installer script and follow the instructions
 ```
@@ -26,5 +28,8 @@ Initially the tmux session is devided to 3 panes
 
 > How to set as default launcher <br>
 - Go to `Settings > Apps > Default Apps > Home App` and select `AnyHome`. Then press home and choose termux.
+
+Note:
+- Install tmux-resurrect to save and restore your own ui layout
 
 Leave a star if you liked this ;D
