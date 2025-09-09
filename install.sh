@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -e "\n\nInstalling packages..."
-apt install -y peaclock gotop root-repo sudo fzf
+apt install -y peaclock gotop root-repo sudo fzf tmux
 
 echo -e "\n\nSetting permissions"
 chmod +x ui.sh
