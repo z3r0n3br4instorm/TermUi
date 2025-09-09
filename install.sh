@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -e "\n\nInstalling packages..."
-apt install -y peaclock gotop root-repo sudo
+apt install -y peaclock gotop root-repo sudo fzf
 
 echo -e "\n\nSetting permissions"
 chmod +x ui.sh

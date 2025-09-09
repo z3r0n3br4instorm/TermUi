@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Retrive package list
-packages=$(sudo pm list packages -3 | cut -d ':' -f 2 | sort)
+packages=$(sudo cmd package list packages | cut -d ':' -f 2 | sort)
 
 
 
